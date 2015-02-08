@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+body{
+	background:white;
+}
+
+.mainTable{
+/*	background:red;
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;opacity: 1.0;
+*/
+}
+
+table {
+	height:100px;
+	margin:auto;
+}
+
+#image {
+	padding:5px;
+	overflow:hidden;
+	height:14em;
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	opacity: 1.0;
+}
+
+.mainTable img {
+	width:100%;
+}
+
+.mainTable .imgTd{
+	width:33%;
+	overflow:hidden;
+
+}
+.nowPage{
+	color:red !important;
+	
+}
+
+.mainTable th.avname{
+	height:3.5em;
+}
+A:visited{
+	color:blue;
+}
+
+a{
+	cursor:pointer;
+}
+
+#starRate{
+	display:inline;
+}
+
+.pageTable{
+}

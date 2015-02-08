@@ -1,0 +1,42 @@
+@CHARSET "BIG5";
+
+table{
+	margin:1em;
+}
+
+#mineFont{
+	display:inline;
+	cursor:pointer;
+	color:blue;
+}
+
+#mine{
+	display:inline;
+}
+
+td.content{
+	height:2em;
+	
+}
+.tagDelBtn{
+	visibility:hidden;
+}
+
+.show{
+	visibility:visible;
+}
+
+.hidden{
+	visibility:hidden;
+}
+a.tagDelBtn:hover{
+	background:red;
+}
+
+a:visited{
+	color:blue;
+}
+
+#content{
+	width:75%;
+}

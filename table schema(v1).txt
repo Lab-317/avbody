@@ -1,0 +1,53 @@
+雛形
+1. 上傳FTP影片後,可以透過web下載
+
+2. Web可以自動擷取 FTP影片與封面圖片 並更新目前狀況
+
+3. 使用者
+	可登入/登出/
+	下載影片/
+	線上預覽圖片/
+	評分、下Tag/
+	給定女優名稱/
+	
+4. 管理者
+	可刪除評分過低區(超過多少人評分)的影片(概念：可將評分低的影片移到刪除區)
+
+5. 可在web上分類影片(下tag)、有預設tag、或自訂tag
+
+   預設Tag：
+   有碼/無碼
+     痴漢、素人、可愛、巨乳
+	
+6. 可顯示目前FTP server剩餘磁碟空間
+
+ 
+java media library
+
+Table
+
+AV_FileInfo
+        av_id  upday  size  sub(是否有字幕)  photo_path  file_path
+
+AV_Information
+	av_infoid  av_id  name  score 
+
+AV_Girl
+	gid  name   
+
+Tag
+	t_id  av_id
+
+TagMap
+	tm_id  t_name
+  
+User
+	uid name  password
+
+
+phase 2  Environment setting
+
+DB mysql
+
+
+phase 3  Task distribution(分工)

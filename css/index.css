@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+body{
+	background-image: url(images/AV.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
+
+p.warning{
+	color:red;
+}
